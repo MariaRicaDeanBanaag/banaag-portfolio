@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maria Banaag | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Maria Banaag</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Maria Banaag</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile" data-aos="fade-up">
+      <div class="section__pic-container">
+        <img src="assets/mariaphoto.svg" alt="Maria Banaag profile picture" id="photo"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Maria Banaag</h1>
+        <p class="section__text__p2">Frontend Developer | Graphic & Video Editor</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('assets/BANAAG-MARIA-RICA-DEAN_RESUME_20250409_215736_0000.pdf')">Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'"> Contact Info</button>
+        </div>
+      </div>
+    </section>
+    /*-------------------*/
+    <section id="about" data-aos="fade-up">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="assets/mariaaa.svg" alt="Profile picture" class="about-pic" id="photo"/>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+              <h3>Experience</h3>
+              <p>3+ Years<br />Graphic Editing</p>
+            </div>
+            <div class="details-container">
+              <img src="assets/education.png" alt="Education icon" class="icon"/>
+              <h3>Education</h3>
+              <p>B.S. Information Technology<br />2nd Year College</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I'm Maria Rica Dean M. Banaag.
+              I'm a Graphic Designer, Web Developer, and Social Media Manager 
+              who turns ideas into visual stories, functional websites, and impactful digital 
+              content. With a passion for clean design and smart strategy, I help brands stand 
+              out and connect with their audience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    /*-------------------*/
+    <section id="experience" data-aos="fade-up">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Web App Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermidiate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon"class="icon"/>
+                <div>
+                  <h3>Javascript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Editing</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Video Editing</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Graphic Editing</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon"/>
+                <div>
+                  <h3>Illustration</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    /*-------------------*/
+    <section id="projects" data-aos="fade-up">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Web App Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/8.svg" alt="Portfolio photo" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Basic Porfolio/ Mockup Google</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://banaag-portfolio-businesscard-gclone.netlify.app/'">Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/9.svg" alt="Counter App photo" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Counter App</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://banaagcountapp.netlify.app/'">Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/10.svg" alt="Card Game" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Card Game</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://blackjack-banaag.netlify.app/'">Live Demo</button>
+            </div>
+          </div>
+           <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/11.svg" alt="Guessing Game" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Guessing Game</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://guessthegame-banaagbasin.netlify.app/'">Live Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="title">Graphic Projects</h1>
+         <div class="experience-details-container">
+          <div class="about-containers">
+         <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/2.svg" alt="Project 1" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Digital Product - BPP</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1ZwQk2nr8HvbivFc4T8E9vp8G_fT1kOgN/view?usp=sharing'">Google Drive</button>
+            </div>
+          </div>
+           <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/3.svg" alt="Project 2" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Digital Product - BPP</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1pwaBqrr49xSwU66jKg4Gw87Qj_aULK4R/view?usp=sharing'">Google Drive</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/4.svg" alt="Project 3" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Digital Product - BPP</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/12dtOqB3xxUtIYbSMyG7rzrI-SA_jmpK0/view?usp=sharing'">Google Drive</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/5.svg" alt="Project 4" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Digital Product - BPP</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1Kqf4NPr8P7lVT6ByJ-8ty1iDRFuQyMeE/view?usp=sharing'">Google Drive</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/6.svg" alt="Project 5" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Graphic Poster - XUB</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.facebook.com/photo?fbid=1245968804200504&set=pcb.1245969147533803'">Facebook</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/7.svg" alt="Project 6" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Graphic Poster - BPP</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/drive/folders/1KsDyVNFpxTjQZixjB11t-x_n0m30Ed8O'">Google Drive</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/12.svg" alt="Project 7" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">TikTok Edit - OTP</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.tiktok.com/@ownthisproperty/video/7478926896340684039'">TikTok</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/13.svg" alt="Project 8" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Graphic Post - XUB</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.facebook.com/photo?fbid=1024148576382529&set=a.217195870411141'">Facebook</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/14.svg" alt="Project 9" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Concert Poster - XUB</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.facebook.com/photo?fbid=843337837796938&set=a.217195870411141'">Facebook</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/15.svg" alt="Project 10" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Graduation Poster - XUB</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.facebook.com/photo?fbid=763678805762842&set=pcb.763691219094934'">Facebook</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/16.svg" alt="Project 11" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">(ORSEM)Event Poster - XUB</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.facebook.com/photo?fbid=762631212534268&set=pcb.762632739200782'">Facebook</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/17.gif" alt="Project 12" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Concert Promotion Video - XUB</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.facebook.com/XavierAteneoBand/videos/1590873494840383'">Facebook</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/projects/18.gif" alt="Project 13" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Event Promotion Video - XUB</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.facebook.com/XavierAteneoBand/videos/8088553634570248'">Facebook</button>
+            </div>
+          </div>
+      </div>
+    </section>
+    /*-------------------*/
+    <section id="contact" data-aos="fade-up">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+          <p><a href="mailto:mariarica.banaag@gmail.com">mariarica.banaag@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+          <p><a href="https://www.linkedin.com/in/maria-banaag-590748358/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Maria Banaag. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+  </body>
+</html>
